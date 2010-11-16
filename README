@@ -40,7 +40,7 @@ munin-node-configure --suggest | grep opentracker_
 
 Should return this if everything checks out...
 
-opentracker_ | no | yes (conn herr peer scrp syncs tcp4 torr udp4)
+opentracker_ | no | yes (conn peer scrp syncs tcp4 torr udp4)
 
 5) Let's see what munin thinks our symlinks should look like for plugin execution.
 
@@ -49,7 +49,6 @@ munin-node-configure --suggest --shell | grep opentracker_
     Should return this if everything checks out...
 
     ln -s '/usr/share/munin/plugins/opentracker_' '/etc/munin/plugins/opentracker_conn'
-    ln -s '/usr/share/munin/plugins/opentracker_' '/etc/munin/plugins/opentracker_herr'
     ln -s '/usr/share/munin/plugins/opentracker_' '/etc/munin/plugins/opentracker_peer'
     ln -s '/usr/share/munin/plugins/opentracker_' '/etc/munin/plugins/opentracker_scrp'
     ln -s '/usr/share/munin/plugins/opentracker_' '/etc/munin/plugins/opentracker_syncs'
