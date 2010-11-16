@@ -61,9 +61,10 @@ my $uri = $ENV{uri} || '/stats';
 
     $graph{graph_name} => {
         config => {
-            You'll find the main graph config stored here, { key => value },
+            { key => value }, You'll find the main graph config stored here.
+            { ... },
         },
-        keys => [ 'Name', 'Name', 'Name', ... ],
+        keys => [ 'Name', 'Name', 'Name', ... ], Used for building results set.
         datasrc => [
             # Name: name given to data value
             # Attr: Attribute for given value, attribute must be valid plugin argument
@@ -71,7 +72,8 @@ my $uri = $ENV{uri} || '/stats';
             { ... },
         ],
         results => {
-            You'll find the results info from a nagiostats call stored here, { key => value },
+            { key => value }, You'll find the results info from a nagiostats call stored here.
+            { ... },
         },
     }
 

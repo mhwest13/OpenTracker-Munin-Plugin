@@ -16,10 +16,10 @@ This plugin graphs the stats information which come out of OpenTracker.
 INSTALLATION
 ============
 
+* This was tested against Munin v1.4.x (Master / Client) but should be compatible with v1.2.x *
+
 1) Dependencies
-    - munin-master v1.4.+
-    - munin-node v1.4.+
-    - opentracker
+    - Opentracker
     - Perl Modules: File::Basename; LWP::Simple
 
 2) Make sure the plugin lives in /usr/share/munin/plugins/ as 
