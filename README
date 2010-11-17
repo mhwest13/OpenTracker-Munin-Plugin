@@ -20,7 +20,7 @@ INSTALLATION
 
 1) Dependencies
     - Opentracker
-    - Perl Modules: File::Basename; LWP::Simple
+    - Perl Modules: File::Basename; LWP::UserAgent
 
 2) Make sure the plugin lives in /usr/share/munin/plugins/ as 
     * This of course depends on which plugin you have downloaded.
